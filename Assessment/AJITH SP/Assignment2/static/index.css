@@ -1,0 +1,78 @@
+body{
+    font-family: 'Inter', sans-serif;
+    background-color:dodgerblue
+}
+#heading{
+    font-weight: 800;
+    font-size: xx-large;
+    font-style: inherit;
+    margin-bottom: 0;
+    color: black;
+    /* margin-left: 39.5%; */
+}
+p{
+    color:black;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+hr{
+    margin : 15px 0 15px;
+    height: 1px;
+    background-color:#EEEEEE;
+    border:none;
+}
+#urLine{
+    margin-top: 0;
+    width: 271px;
+    margin-left: 0;
+    height:2px;
+    background-color:#ffff;
+}
+
+label{
+    font-size: 16px;
+    /* color: grey; */
+    font-weight: 600;
+}
+input{
+    border-radius: 5px;
+    border-color: grey;
+    border: 2px solid #ccc;
+    height: 25px;
+    margin-left: 38%;
+    width: 300px;
+}
+button{
+    background-color:gray;
+    color: white;
+    border-radius: 5px;
+    height: auto;
+    width: auto;
+    font-size:large;
+    padding: 12px 20px;
+    margin-left: 90%;
+    border: none;
+}
+.name{
+    margin-left: 28%;
+}
+#email{
+    width: 450px;
+    margin-left: 26.3%;
+}
+#country{
+    height: 30px;
+    margin-left: 29.15%;
+}
+#stad{
+    margin-left: 25.7%;
+}
+#city{
+    margin-left: 31%;
+}
+#state{
+    margin-left: 25%;
+}
+#zip{
+    margin-left: 24.5%;
+}
