@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./index.js">
+    <script src="./index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cloud Object Storage</h1>
+    <img src="https://expensetrackerbucket.s3.jp-tok.cloud-object-storage.appdomain.cloud/Safeimagekit-resized-imgpng.png" alt="img1">
+    <img src="https://expensetrackerbucket.s3.jp-tok.cloud-object-storage.appdomain.cloud/Unknown" alt="img2">
+    <img src="https://expensetrackerbucket.s3.jp-tok.cloud-object-storage.appdomain.cloud/Unknown-2" alt="img3">
+    <img src="https://expensetrackerbucket.s3.jp-tok.cloud-object-storage.appdomain.cloud/Unknown-3" alt="img4">
+    <img src="https://expensetrackerbucket.s3.jp-tok.cloud-object-storage.appdomain.cloud/Unknown-4" alt="img5">
+    <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "e2c9f815-0d77-4c6d-bda0-5835e92a8edf", // The ID of this integration.
+            region: "au-syd", // The region your integration is hosted in.
+            serviceInstanceID: "022ab310-8d5f-431b-b6d8-f0a6b91577a9", // The ID of your service instance.
+            onLoad: function (instance) { instance.render(); }
+        };
+        setTimeout(function () {
+            const t = document.createElement('script');
+            t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+            document.head.appendChild(t);
+        });
+    </script>
+</body>
+</html>
