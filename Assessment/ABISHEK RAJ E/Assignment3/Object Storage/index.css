@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:khaki;
+}
+img{
+    height: 250px;
+    width: 250px;
+}
+.img1{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.img2{
+    padding-top: 20px;
+        padding-bottom: 20px;
+}
+.img3{
+    padding-top: 20px;
+    padding-right: 20px;
+        padding-bottom: 20px;
+}
+.img4{
+padding-top: 20px;
+    padding-bottom: 20px;
+}
+.img5{
+    padding-top: 20px;
+    padding-right: 520px;
+        padding-bottom: 20px;
+}
+hr{
+    border-style: none;
+        border-top-style:groove;
+        border-top-width: thick;
+        width: 1040px;
+    
+        border-color: blue;
+        
+}
+
