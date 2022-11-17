@@ -1,0 +1,354 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+        background: linear-gradient(135deg, #71b7e6, #9b59b6);
+
+}
+
+.track-home {
+    display: flex;
+    padding: 1rem 1.5rem;
+}
+.navbar {
+     background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    /* border-bottom: 2px;
+    border-style: solid;
+    border-color: #191A19; */
+    box-shadow: 0 2px 10px 1px #191A19;
+}
+.logout{
+    color:white;
+}
+.fa-solid{
+    color: white;
+}
+.nav-link{
+  color: white;
+}
+
+.toRight{
+    right: 0;
+}
+.navbar-brand {
+    font-size: 2rem;
+    color: white;
+}
+
+.navbar-brand1 {
+    font-size: 2rem;
+    color: white;
+    margin-left: 2%;
+}
+.track-left {
+    display: flex;
+    flex-direction: column;
+    background-color:#71b7e6;
+    padding: 1rem 1.2rem;
+    width: 18%;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0 2px 10px 1px #191A19;
+    /* border-style: solid;
+    border-color: #191A19; */
+    margin-top: 0.85%
+}
+
+.track-avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0.5rem 0.2rem;
+}
+
+.avatar {
+    height: 9rem;
+    width: 9rem;
+}
+
+.track-avatar > span {
+    margin-top: 0.5rem;
+}
+
+.solid-line {
+    border-top: 1px solid #5e5e5e;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.track-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.track-items > div {
+    width: 100%;
+    margin: 0.3rem 0;
+    padding: 0.5rem 0 0.5rem 0.3rem;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    font-weight: 500;
+    background: #aa57ca;
+    color: white;
+}
+
+i {
+    margin-right: 0.3rem;
+}
+
+.track-items > div:hover {
+    background-color:#2870a0;
+    color: white;
+}
+
+/*.track-items > div:last-child {*/
+/*    margin-top: 10rem;*/
+/*}*/
+
+.track-right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    /*background-color: yellow;*/
+    width: 100%;
+}
+
+.track-right__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.track-right__top__types {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 1rem;
+    /*padding: 1.5rem 1.7rem;*/
+    height: 13.5rem;
+    width: 13rem;
+    box-shadow: 0 2px 15px 1px rgba(0, 0, 0, 0.25);
+}
+.monthly{
+    position: relative;
+    bottom:15px;
+    
+}
+.limiter{
+    text-align: left;
+    
+    
+}
+.showlimit{
+    margin-left: 10%;
+}
+
+.track-type__amount {
+    margin: 1.5rem 0 0.7rem;
+    font-size: 1.5rem;
+}
+
+.track-right__bottom {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.track-limit {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+     background:#aa57ca;
+    width: 60%;
+    min-height: 60.5vh;
+    border-radius: 1rem;
+    padding: 1rem 2rem 1rem 0.5rem;
+    text-align: center;
+    box-shadow: 0 2px 10px 1px #191A19;
+    /* border-style: solid;
+    border-color: #191A19; */
+    margin-right: 1rem;
+    color: white;
+}
+
+.track-transactions {
+    display: flex;
+    flex-direction: column;
+    background:#aa57ca;
+    width: 96%;
+    min-height: 60.5vh;
+    border-radius: 1rem;
+    padding: 1rem 2rem 1rem 0.5rem;
+    text-align: center;
+    box-shadow: 0 2px 10px 1px #191A19;
+    /* border-style: solid;
+    border-color: #191A19; */
+    margin-right: 1rem;
+    margin-top: 3%;
+    color: white;
+}
+
+
+.date-header {
+    width: 15%;
+}
+
+.transaction-header {
+    width: 45%;
+}
+
+.type-header {
+    width: 25%;
+}
+
+.amount-header {
+    width: 15%;
+}
+.total-items {
+    display: flex;
+    flex-direction: column;
+    /*overflow-x: hidden;*/
+    /*overflow-y: auto;*/
+}
+.limi{
+    
+    margin-top: 10%;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+
+    
+}
+
+.set-limit1{
+    padding-right: 20px;
+    
+}
+.set-limit2{
+    
+    padding-right: 20px;
+        padding-left: 10px;
+}
+
+.limi input{
+    margin-top: 5.7%;
+}
+
+.monthly{
+    margin-top: 6%;
+    margin-bottom: 2%;
+}
+
+.limi .btn-submi {
+    width: 50%;
+    align-self: center;
+    color: black;
+    background-color:  #71b7e6;
+    bottom: 10%;
+    border: none;
+    margin: 1.3rem 0 1rem 0;
+    padding: 0.6rem 0.7rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    margin-top: 9%;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 56px;
+    
+}
+/* .monthly{
+    margin-top: 10%;
+} */
+
+.limi .btn-submi:hover {
+    background-color:#1b51b6;
+    color:white;
+}
+.transact-header, .transact-item {
+    display: flex;
+    padding: 0.3rem 0;
+}
+
+.transact-item:hover {
+    background-color:#2870a0;
+    color: white;
+}
+
+.track-add {
+    display: flex;
+    flex-direction: column;
+    background: #aa57ca;
+    width: 35%;
+    height: 100%;
+    border-radius: 1rem;
+    box-shadow: 0 2px 10px 1px #191A19;
+    /* border-style: solid;
+    border-color: #191A19; */
+    text-align: center;
+}
+.track-add h2{
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 6%;
+    
+}
+
+.expenditure-input {
+    /*margin: 1rem 0;*/
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=text], input[type=number], input[type=date], select {
+    box-sizing: border-box;
+    padding: 0.9rem 0.5rem 0.9rem 0.5rem;
+    display: inline-block;
+    border: 2px solid #F5F5F5;
+    border-radius: 0.5rem;
+    background-color: #F5F5F5;
+    font-size: 1rem;
+    width: 17rem;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #71b7e6;
+}
+
+input:hover {
+    border: 2px solid #2870a0;
+}
+
+.btn-submit {
+    width: 70%;
+    align-self: center;
+    color: black;
+    background-color: #71b7e6;
+    bottom: 10%;
+    border: none;
+    margin: 1.3rem 0 1rem 0;
+    padding: 0.6rem 0.7rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    margin-top: 15%;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-submit:hover {
+    background-color:#1b51b6;
+    
+    color: white;
+}
+
+.empty-transact {
+    margin-top: 6rem;
+            background: linear-gradient(135deg, #71b7e6, #a557c4);
+}
