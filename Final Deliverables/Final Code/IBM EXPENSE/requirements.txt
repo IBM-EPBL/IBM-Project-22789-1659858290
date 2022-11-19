@@ -1,0 +1,3 @@
+Flask==1.1.4
+SendGrid==6.9.7
+ibm-db==3.1.3
